@@ -29,5 +29,3 @@ Struct types
 
 10. Avoiding Premature Optimization:
     - The lesson concludes by discouraging premature optimization for performance without benchmark data. Unnecessary code restructuring for micro-optimizations is cautioned against unless there is clear evidence of memory issues in the application.
-
-Overall, the lesson provides a comprehensive understanding of user-defined types, memory allocation considerations, and struct optimization in the context of the Go programming language.
