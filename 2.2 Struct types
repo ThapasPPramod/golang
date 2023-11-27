@@ -1,0 +1,33 @@
+Struct types
+
+1. Introduction to User-Defined Types:
+   - The lesson begins by emphasizing the importance of user-defined types, specifically struct types, in the Go programming language. The ability to define custom data types is crucial for building complex and organized programs.
+
+2. Mechanical Sympathy and Implicit Conversion:
+   - The instructor introduces the concept of "mechanical sympathy," a term coined by Martin Thompson. Implicit conversion of types is discouraged, as it can lead to unexpected issues and is compared to a coding Halloween special. Go prioritizes explicit intentions over implicit conversions.
+
+3. Code Review - Defining a Named Type:
+   - The lesson includes a code review where a named type "example" is defined as a struct type in Go. The emphasis is on creating values in Go rather than referring to them as objects.
+
+4. Memory Allocation and Struct Size:
+   - The discussion shifts to memory allocation for user-defined types, with a focus on struct types. The impact of alignments and padding on the size of a struct is explained, stressing the importance of optimizing for correctness rather than premature performance concerns.
+
+5. Literal Construction of Structs:
+   - Literal construction syntax for structs in Go is introduced, showcasing the use of the colon and comma syntax. Literal construction is a common approach in Go, especially when initializing values other than their zero values.
+
+6. Anonymous Structs or Literals:
+   - The concept of anonymous structs or literals is introduced. These are unnamed types that can be used for specific scenarios where a type doesn't need to be named explicitly, enhancing readability and reducing pollution in the code.
+
+7. Compatibility and Conversion Syntax:
+   - The compatibility of named types is highlighted, and the need for explicit conversion is introduced. While named types require explicit conversion to maintain code integrity, literal types offer more flexibility in assignments.
+
+8. Flexibility with Literal Types:
+   - The lesson explains the flexibility in assignments with literal types, especially in cases where values are compatible. Unlike named types, assignments with literal types may not require explicit conversion, providing a level of flexibility in certain scenarios.
+
+9. Balance Between Readability and Integrity:
+   - The importance of maintaining a balance between readability, flexibility, and code integrity is emphasized. The discussion revolves around how the conversion syntax and the flexibility of literal types contribute to the overall quality of the code.
+
+10. Avoiding Premature Optimization:
+    - The lesson concludes by discouraging premature optimization for performance without benchmark data. Unnecessary code restructuring for micro-optimizations is cautioned against unless there is clear evidence of memory issues in the application.
+
+Overall, the lesson provides a comprehensive understanding of user-defined types, memory allocation considerations, and struct optimization in the context of the Go programming language.
